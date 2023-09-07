@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "DhlHvNhpUupCFI1bNq1LXhydhI2Jd5wK131aNRtgOpvDm2I2AjLF9p+wgdGNNQZPqj9IHx85+m3X3+IkVmeVgw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\WebApplication\\WebApplication.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Google.Cloud.Firestore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Google.Cloud.Firestore",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

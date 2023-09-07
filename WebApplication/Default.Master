@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="WebApplication.Default"%>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Půjčovna dronů</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+     <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+   
+    <script src="Bootstrap/js/popper.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+             <nav class="navbar navbar-expand-lg navbar-light">
+                 <ul class="navbar-nav ml-auto float-right">
+                     <li class="nav-item active">
+                         <asp:LinkButton class="nav-link" ID="Username" runat="server" Visible="False">Username</asp:LinkButton>
+                     </li>
+                     <li class="nav-item active">
+                         <asp:LinkButton class="nav-link" ID="LogInBtn" runat="server" OnClick="LogInBtn_Click" >Prihlasit se</asp:LinkButton>
+                     </li>
+                     <li class="nav-item active">
+                         <asp:LinkButton class="nav-link" ID="LogOffBtn" runat="server" OnClick="LogOffBtn_Click" Visible="False" >Odhlasit se</asp:LinkButton>
+                     </li>
+                 </ul> 
+             </nav>
+             <div class="name">
+                 <h1 class="webName">
+                     <a href="homepage.aspx">Pujcovna Dronu</a>
+                 </h1>
+             </div>
+         </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

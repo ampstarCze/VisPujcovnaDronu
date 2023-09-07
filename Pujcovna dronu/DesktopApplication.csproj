@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0289DEAE-5F7F-4C81-8B24-FA445F8A9F71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pujcovna_dronu</RootNamespace>
+    <AssemblyName>Pujcovna dronu</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DronVypujcen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DronVypujcen.Designer.cs">
+      <DependentUpon>DronVypujcen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PotvrzeniNavratu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PotvrzeniNavratu.Designer.cs">
+      <DependentUpon>PotvrzeniNavratu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeznamDronu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeznamDronu.Designer.cs">
+      <DependentUpon>SeznamDronu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeznamVypujcek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeznamVypujcek.Designer.cs">
+      <DependentUpon>SeznamVypujcek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeznamZakazniku.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeznamZakazniku.Designer.cs">
+      <DependentUpon>SeznamZakazniku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vratit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vratit.Designer.cs">
+      <DependentUpon>Vratit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vypujcit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vypujcit.Designer.cs">
+      <DependentUpon>Vypujcit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zakaznik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zakaznik.Designer.cs">
+      <DependentUpon>Zakaznik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DronVypujcen.resx">
+      <DependentUpon>DronVypujcen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PotvrzeniNavratu.resx">
+      <DependentUpon>PotvrzeniNavratu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeznamDronu.resx">
+      <DependentUpon>SeznamDronu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeznamVypujcek.resx">
+      <DependentUpon>SeznamVypujcek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeznamZakazniku.resx">
+      <DependentUpon>SeznamZakazniku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vratit.resx">
+      <DependentUpon>Vratit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vypujcit.resx">
+      <DependentUpon>Vypujcit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zakaznik.resx">
+      <DependentUpon>Zakaznik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{d296f530-a486-4626-a249-47578719273f}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PresentationLayer\PresentationLayer.csproj">
+      <Project>{84021984-d899-4195-9abe-83020075504c}</Project>
+      <Name>PresentationLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

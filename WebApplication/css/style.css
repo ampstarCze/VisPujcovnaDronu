@@ -1,0 +1,24 @@
+﻿.name 
+{
+    border-color:black;
+    border-style:solid;
+    border-left:0px;
+    border-right:0px;
+    margin-bottom:5vh;
+}
+
+.webName a {
+    font-size: 8vw;
+    margin-left: 3vw;
+    color: black;
+}
+
+    .webName a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+.w-90
+{
+    width:90%;
+}

@@ -1,0 +1,9 @@
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\bin\Debug\Pujcovna dronu.exe.config
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\bin\Debug\Pujcovna dronu.exe
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\bin\Debug\Pujcovna dronu.pdb
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\obj\Debug\Desktop application.csprojAssemblyReference.cache
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\obj\Debug\Pujcovna_dronu.Properties.Resources.resources
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\obj\Debug\Desktop application.csproj.GenerateResource.cache
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\obj\Debug\Desktop application.csproj.CoreCompileInputs.cache
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\obj\Debug\Pujcovna dronu.exe
+D:\Plocha\vsb\Vis\Projekt\Pujcovna dronu\Pujcovna dronu\obj\Debug\Pujcovna dronu.pdb

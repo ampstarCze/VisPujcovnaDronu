@@ -1,0 +1,311 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Google.Cloud.Firestore": "1.1.0-beta01"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "PresentationLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BusinessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Google.Cloud.Firestore": "1.1.0-beta01"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "PresentationLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BusinessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Google.Cloud.Firestore": "1.1.0-beta01"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "PresentationLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BusinessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Google.Cloud.Firestore": "1.1.0-beta01"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "PresentationLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BusinessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PresentationLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer/BusinessLayer.csproj",
+      "msbuildProject": "../BusinessLayer/BusinessLayer.csproj"
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataLayer/DataLayer.csproj",
+      "msbuildProject": "../DataLayer/DataLayer.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
+    "PresentationLayer/1.0.0": {
+      "type": "project",
+      "path": "../PresentationLayer/PresentationLayer.csproj",
+      "msbuildProject": "../PresentationLayer/PresentationLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "BusinessLayer >= 1.0.0",
+      "Google.Cloud.Firestore >= 2.3.0",
+      "PresentationLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dalib\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\WebApplication\\WebApplication.csproj",
+      "projectName": "WebApplication",
+      "projectPath": "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\WebApplication\\WebApplication.csproj",
+      "packagesPath": "C:\\Users\\dalib\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\WebApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dalib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\BusinessLayer\\BusinessLayer.csproj"
+            },
+            "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\PresentationLayer\\PresentationLayer.csproj": {
+              "projectPath": "C:\\Users\\dalib\\Desktop\\vsb\\Bakalar\\Tretak\\Vis\\Pujcovna dronu\\PresentationLayer\\PresentationLayer.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Google.Cloud.Firestore": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Google.Cloud.Firestore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Google.Cloud.Firestore",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}
